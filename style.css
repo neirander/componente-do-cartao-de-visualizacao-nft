@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+.cores {
+  color: hsl(215, 51%, 70%);
+  color: hsl(178, 100%, 50%);
+  color: hsl(217, 54%, 11%);
+  color: hsl(216, 50%, 16%);
+  color: hsl(215, 32%, 27%);
+  color: hsl(0, 0%, 100%);
+}
+img {
+  max-width: 100%;
+  border-radius: 0.9rem;
+}
+body {
+  margin: 0;
+  font: 18px;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+h2,
+p,
+hr {
+  margin: 0;
+}
+main {
+  width: 325px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 0.9rem;
+  box-shadow: hsla(216, 50%, 16%, 0.2) 0px 8px 24px;
+}
+.imagem {
+  padding: 1rem;
+  position: relative;
+}
+.imagem-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 291px;
+  height: 291px;
+  margin: 16px;
+  border-radius: 0.9rem;
+  background-color: hsla(178, 100%, 50%, 0);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+.imagem-icon:hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 292px;
+  height: 292px;
+  margin: 16px;
+  border-radius: 0.9rem;
+  background-color: hsla(178, 100%, 50%, 0.6);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  opacity: 1;
+}
+.conteudo {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: -10px;
+}
+h2 {
+  color: hsl(0, 0%, 100%);
+  grid-column: 1 / -1;
+}
+h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.conteudo .our {
+  color: hsl(215, 51%, 70%);
+  grid-column: 1 / -1;
+}
+.eth {
+  grid-column: 1 / 3;
+  display: flex;
+  align-items: center;
+}
+.eth span {
+  color: hsl(178, 100%, 50%);
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-left: 0.4rem;
+}
+.time {
+  grid-column: 3 / 5;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+.time span {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-left: 0.4rem;
+}
+hr {
+  grid-column: 1 / -1;
+  background-color: hsl(215, 32%, 27%);
+  color: hsl(215, 32%, 27%);
+  height: 1px;
+  border: 0;
+}
+.creation {
+  padding: 1rem;
+  display: flex;
+  margin-top: -20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.creation img {
+  width: 35px;
+  height: 35px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+.creation p {
+  margin-left: 15px;
+  color: hsl(215, 51%, 70%);
+}
+.creation p b {
+  color: hsl(0, 0%, 100%);
+  font-weight: normal;
+}
+.creation p b:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
