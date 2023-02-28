@@ -3,7 +3,7 @@
 Esta é uma solução para o [desafio do componente do cartão de visualização NFT no Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 ## Visão geral
-
+![](./screenshot.jpg)
 ### O desafio
 
 Os usuários devem ser capazes de:
